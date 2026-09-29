@@ -8,12 +8,6 @@
 
 **SecureVault DFIR** is an interactive, frontend-only forensic dashboard and media sanitization demonstration platform built for SIH college hackathon demonstrations. It showcases enterprise-grade digital forensics incident response (DFIR) workflows adhering to **NIST SP 800-88 Rev 1**, **DoD 5220.22-M**, and **ISO/IEC 27037** standards.
 
-### ⚠️ Important Notice: Simulation Mode
-- **FRONTEND ONLY**: Operates entirely in the browser with no external server, database, or API dependencies.
-- **NO REAL DISK ACCESS**: No physical hard drives, USBs, or flash memory are accessed.
-- **NO REAL FILE DELETION**: Zero data is destroyed or modified on the host machine.
-- **NO REAL DATA RECOVERY**: All disk carving, signature matches, and hex dumps utilize pre-indexed forensic mock datasets.
-- **HARDWARE WRITE-BLOCKER EMULATION**: Evidence is strictly maintained in read-only mode with cryptographic checksums (SHA-256 / MD5).
 
 ---
 
